@@ -1,6 +1,6 @@
 import React from 'react';
-import { Display } from './Display';
-import { ButtonPanel } from './ButtonPanel';
+import { Screen } from './Screen';
+import { Dashboard } from './Dashboard';
 import { calculate } from '../logic/calculate';
 import './App.css';
 
@@ -18,8 +18,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='component-app'>
-        <Display value={this.state.next || this.state.total || '0'} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <Screen value={this.state.next || this.state.total || '0'} />
+        <Dashboard clickHandler={this.handleClick} />
       </div>
     );
   }

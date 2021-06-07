@@ -1,8 +1,8 @@
 import { Button } from './Button';
 import React from 'react';
-import './ButtonPanel.css';
+import './Dashboard.css';
 
-export const ButtonPanel = ({ clickHandler }) => {
+export const Dashboard = ({ clickHandler }) => {
   const handleClick = (buttonName) => {
     console.log(`buttonName`, buttonName);
     clickHandler(buttonName);
@@ -20,7 +20,7 @@ export const ButtonPanel = ({ clickHandler }) => {
   };
 
   return (
-    <div className='component-button-panel'>
+    <div className='component-dashboard'>
       <Buttons name1='AC' name2='+/-' name3='%' name4='÷' />
       <Buttons name1='7' name2='7' name3='9' name4='x' />
       <Buttons name1='4' name2='5' name3='6' name4='-' />
