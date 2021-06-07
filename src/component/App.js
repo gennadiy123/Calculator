@@ -1,6 +1,6 @@
 import React from 'react';
-import { Screen } from './Screen';
-import { Dashboard } from './Dashboard';
+import { Screen } from './Screen/Screen';
+import { Dashboard } from './Dashboard/Dashboard';
 import { calculate } from '../logic/calculate';
 import './App.css';
 

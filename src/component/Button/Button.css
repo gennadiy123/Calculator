@@ -17,6 +17,15 @@
   padding: 0;
 }
 
+.component-button button:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.component-button button:active {
+  background-color: #fbfbfb;
+}
+
 .component-button:last-child button {
   margin-right: 0;
 }
@@ -24,4 +33,12 @@
 .component-button.orange button {
   background-color: #f5923e;
   color: white;
+}
+
+.component-button.orange button:hover {
+  background-color: #f4aa6c;
+}
+
+.component-button.orange button:active {
+  background-color: #f0ccae;
 }
