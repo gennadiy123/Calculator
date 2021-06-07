@@ -17,7 +17,7 @@ export const Dashboard = ({ clickHandler }) => {
       <div>
         <Button name='0' clickHandler={handleClick} wide />
         <Button name='.' clickHandler={handleClick} />
-        <Button name='=' clickHandler={handleClick} orange />
+        <Button name='=' clickHandler={handleClick} black />
       </div>
     </div>
   );
